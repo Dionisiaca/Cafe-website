@@ -24,7 +24,7 @@ body {
 
 header {
   width: 100%;
-  background: url('../img/bg.jpg') #281a0c;
+  background: url('../img/bg.png') #4e4e16;
   background-size: cover;
   background-attachment: fixed;
   background-position: center 0;
@@ -188,18 +188,18 @@ header .textos h3 {
 /* GALERÍA */
 
 .main .galeria {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main .galeria .foto {
   width: 25%;
-  float: left;
 }
 
 .main .galeria .foto img {
   width: 100%;
   vertical-align: top;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 .main .galeria .foto:hover img {
@@ -267,7 +267,7 @@ header .textos h3 {
 /* FOOTER */
 
 footer {
-  background: black;
+  background: #777A26;
 }
 
 footer .copyright {
@@ -275,6 +275,16 @@ footer .copyright {
   text-align: center;
   padding: 15px 0;
   color: white;
+}
+
+footer a{
+  color: lightgoldenrodyellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: lightsalmon;
 }
 
 /* RESPONSIVE */
